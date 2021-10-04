@@ -1,0 +1,95 @@
+body{
+    font-family: 'roboto', 'sans-serif';
+}
+
+.container{
+    width: 80%;
+    max-width: 940px;
+    margin: 0px auto;
+}
+
+header nav ul li a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+.logo{
+    max-width: 100px;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    display: flex;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    font-size: 50px;
+    font-family: sans-serif, verdana;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+h3{
+    font-size: 25px;
+    font-family: sans-serif, verdana;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.imagens{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.paragrafo-fotos{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotos{
+    width: 310px;
+    height: 250px;
+    padding: 5px;
+}
+
+.rodape{
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    vertical-align: top;
+}
+.div-color{
+    background-color: rgb(255, 64, 0);
+    color:  #000000;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.icones img{
+    width: 20px;
+    display: inline;
+}

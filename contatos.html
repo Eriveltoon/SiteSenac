@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contatos.css">
+
+</head>
+
+<body class="container">
+    <header>
+        <img src="images/senac.jpeg" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="images/cadastro" class="banner-3">
+    <main>
+        <h2>contatos</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input id="nome" type="text" placeholder="Digite seu nome" required>
+
+            <label for="endereco">Endereço:</label>
+            <input id="endereco" type="text" placeholder="Endereço" required>
+
+            <label>Data de Nascimento:</label>
+            <input type="text" class="form-control" placeholder="Ex.: dd/mm/aaaa" data-mask="00/00/0000" maxlength="10"
+                autocomplete="on" required> 
+
+            <label for="e-mail">E-mail:</label>
+            <input id="e-mail" type="email" placeholder="E-mail" required>
+
+            <label for="telefone">Telefone:</label>
+            <input id="tel" type="number" placeholder="(00) 00000-0000" required>
+
+            <fieldset>
+                <label id="sexo">Sexo</label>
+
+                <label>Masculino</label>
+                <input type="radio" id="m" class="sexo-radio">
+
+                <input type="radio" id="f" class="sexo-radio">
+                <label>Feminino</label>
+            </fieldset>
+
+            <input type="submit" value="Enviar" id="botao">
+        </form>
+    </main>
+    <div class="div-color">
+        <div class="div-color">
+            <address class="rodape">
+                Av. Eng. Eusébio Stevaux, 823 <br>
+                Santo Amaro, São Paulo - SP<br>
+                04696-000
+            </address>
+            <div class="rodape">
+                <span class="rodape">Tel: (XX) XXXXX-XXXX</span>
+                <div class="icones">
+                    <img src="logo/facebook.png">
+                    <img src="logo/instagram.png">
+                    <img src="logo/twitter.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

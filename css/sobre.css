@@ -1,0 +1,25 @@
+.banner-2{
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    font-family:sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    font-family:sans-serif;
+}
+
+.icones img{
+    width: 20px;
+    display: inline;
+}
